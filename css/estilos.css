@@ -57,6 +57,10 @@ nav ul li a{
 	font-size: 16px;
 }
 
+img {
+	box-shadow: 2px 2px #02010a;
+}
+
 #central img {
 	width: 80%;
 	height: 300px;
@@ -133,6 +137,7 @@ nav ul li a{
 	display: -ms-flex;
 	display: flex;
 	flex-direction: row;
+	
 }
 
 .contenido3 img{
@@ -218,7 +223,7 @@ header {
 	}
 }
 
-@media (max-width: 420px){
+@media (max-width: 900px){
 	.cabecera, .contenido, #secundario, #pie{
 		width: 100%;
 	}	
@@ -280,6 +285,7 @@ header {
 		display: -webkit-flex;
 		display: flex;
 		flex-direction: column;
+		flex-wrap: wrap;
 	}
 	#contenido22 {
 		width: 100%;
@@ -287,6 +293,7 @@ header {
 		display: -webkit-flex;
 		display: flex;
 		flex-direction: column;
+		flex-wrap: wrap;
 	}
 	#contenido31 {
 		width: 100%;
